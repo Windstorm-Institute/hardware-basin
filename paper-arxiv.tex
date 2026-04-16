@@ -1,0 +1,37 @@
+% Paper 9 of The Windstorm Series
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{booktabs}
+
+\title{The Hardware Basin: Why the Quantization Cliff Is About Level Allocation, Not Bit Count}
+
+\author{Grant Lavell Whitmer III\\
+The Windstorm Institute, Fort Ann, NY 12827, USA\\
+\texttt{grantwhitmer3@gmail.com}}
+
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Paper 7 reported a universal quantization cliff at INT4 to INT3 using bitsandbytes software quantization. We investigated whether this cliff is a software artifact or a mathematical property of low-precision arithmetic. The cliff location depends on the quantization method. Symmetric uniform quantization produces catastrophic BPT $\approx 17$ at INT4 (versus $4.3$ at FP16). bitsandbytes NF4 (normal-float-4, which places quantization levels at Gaussian quantiles) produces operational BPT $\approx 3.9$--$4.7$ at INT4. Same bit count, opposite outcomes. The difference is level allocation. A Lloyd-Max (minimum-MSE) quantizer achieves cosine similarity $0.990$ at INT4 and $0.965$ at INT3. The result is universal across four architectures and consistent across all 24 layers of Pythia-410M. Version 2.1 adds three publication-grade verifications: five-seed replication at Pythia-1.4B (Welch $t = 633.74$, $p = 2.84 \times 10^{-15}$, Cohen's $d = 400.81$); Lloyd-Max INT3 end-to-end test showing that per-matrix cosine overstates propagated quality (BPT $= 11.74$); and three-model, three-seed robust replication. The minimum viable inference specification is not an $N$-bit integer but an $N$-bit representation with distribution-aware level allocation, validated end-to-end.
+\end{abstract}
+
+\noindent\textbf{Keywords:} quantization cliff; level allocation; NF4; symmetric quantization; Lloyd-Max; inference hardware; structural bonus.
+
+\section{Introduction}
+
+The full text of this paper is provided as \texttt{paper.pdf} in this repository. The markdown source is in \texttt{paper/Paper9-v2.1-draft.md} in the companion Windstorm-Institute/throughput-basin-origin repository.
+
+\section*{Code and Data Availability}
+
+All code, experimental data, and figures are available under MIT license at \url{https://github.com/Windstorm-Institute/hardware-basin} and \url{https://github.com/Windstorm-Labs/hardware-basin}. The Grand Slam Supplementary Materials providing statistical verification (v2.1) are at \texttt{grandslam\_supplementary.pdf} in this repository.
+
+\end{document}
