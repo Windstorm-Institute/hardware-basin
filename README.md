@@ -4,7 +4,10 @@
 
 Grant Lavell Whitmer III · Windstorm Labs, The Windstorm Institute · Fort Ann, NY, USA
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19672921-blue)](https://doi.org/10.5281/zenodo.19672921)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+
+**Zenodo**: [10.5281/zenodo.19672921](https://doi.org/10.5281/zenodo.19672921) (concept DOI, always-latest) · **Current version: v2.2** ([10.5281/zenodo.19672922](https://doi.org/10.5281/zenodo.19672922), April 2026)
 
 ---
 
@@ -35,7 +38,7 @@ Experiment data also at:
 | 6 | [The Inherited Constraint](https://github.com/Windstorm-Institute/inherited-constraint) | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) |
 | 7 | [The Throughput Basin Origin](https://github.com/Windstorm-Institute/throughput-basin-origin) | [10.5281/zenodo.19498582](https://doi.org/10.5281/zenodo.19498582) |
 | 8 | [The Vision Basin](https://github.com/Windstorm-Institute/vision-basin) | [10.5281/zenodo.19672827](https://doi.org/10.5281/zenodo.19672827) |
-| 9 | [The Hardware Basin](https://github.com/Windstorm-Institute/hardware-basin) | Preprint |
+| 9 | [The Hardware Basin](https://github.com/Windstorm-Institute/hardware-basin) | [10.5281/zenodo.19672921](https://doi.org/10.5281/zenodo.19672921) |
 
 **Website:** [windstorminstitute.org](https://windstorminstitute.org)
 
