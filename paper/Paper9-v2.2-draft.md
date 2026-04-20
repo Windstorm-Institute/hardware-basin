@@ -318,7 +318,7 @@ Whitmer III, G.L. (2026a–f). Papers 1–6, Windstorm Institute.
 
 Whitmer III, G.L. (2026g). Paper 7: The Throughput Basin Origin. *Windstorm Institute.* Concept DOI: [10.5281/zenodo.19498582](https://doi.org/10.5281/zenodo.19498582). Latest version v1.6: [10.5281/zenodo.19672654](https://doi.org/10.5281/zenodo.19672654).
 
-Whitmer III, G.L. (2026h). Paper 8: The Vision Basin: Cross-Modal Throughput Measurement Reveals Modality-Specific Information Extraction Rates. *Windstorm Institute (preprint).* DOI pending. github.com/Windstorm-Institute/vision-basin.
+Whitmer III, G.L. (2026h). Paper 8: The Vision Basin: Cross-Modal Throughput Measurement Reveals Modality-Specific Information Extraction Rates. *Windstorm Institute.* Concept DOI: [10.5281/zenodo.19672827](https://doi.org/10.5281/zenodo.19672827). Latest version v2.2: [10.5281/zenodo.19672828](https://doi.org/10.5281/zenodo.19672828).
 
 Grand Slam Supplementary Materials. *Windstorm Institute.* github.com/Windstorm-Institute/throughput-basin-origin/blob/main/grandslam\_supplementary.pdf.
 
